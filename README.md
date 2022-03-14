@@ -4,7 +4,7 @@
 &nbsp;  
 &nbsp;
 # usage example 2
-`hg19=ucsc.hg19.fasta`
+`hg19=ucsc.hg19.fasta`  
 `cat $hg19 | grep '^>chr' | sed 's/>//' | xargs -i -P 24 bash N.sh $hg19 {}`  
 `cat *hg19*.chr*.1-based.bed >hg19.N-Region`  
  &nbsp; *you will get* ***hg19.N-Region***   
